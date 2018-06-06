@@ -1,0 +1,11 @@
+2018-05-09 01:38:36,350 [HikariPool-3 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool 756 - HikariPool-3 - Thread starvation or clock leap detected (housekeeper delta=6h26m24s195ms).
+2018-05-09 02:40:32,986 [HikariPool-3 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool 756 - HikariPool-3 - Thread starvation or clock leap detected (housekeeper delta=1h26s602ms).
+2018-05-09 09:57:40,768 [HikariPool-3 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool 756 - HikariPool-3 - Thread starvation or clock leap detected (housekeeper delta=7h16m37s779ms).
+2018-05-09 11:50:07,957 [HikariPool-3 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool 748 - HikariPool-3 - Retrograde clock change detected (housekeeper delta=26s282ms), soft-evicting connections from pool.
+2018-05-09 13:01:02,678 [HikariPool-3 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool 756 - HikariPool-3 - Thread starvation or clock leap detected (housekeeper delta=1h24s633ms).
+2018-05-09 13:38:58,182 [HikariPool-3 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool 756 - HikariPool-3 - Thread starvation or clock leap detected (housekeeper delta=37m55s505ms).
+2018-05-09 14:47:41,613 [Thread-59] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext 989 - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@39f4315a: startup date [Tue May 08 19:08:39 CST 2018]; root of context hierarchy
+2018-05-09 14:47:41,704 [Thread-59] INFO  o.s.j.e.a.AnnotationMBeanExporter 452 - Unregistering JMX-exposed beans on shutdown
+2018-05-09 14:47:41,707 [Thread-59] INFO  o.s.j.e.a.AnnotationMBeanExporter 183 - Unregistering JMX-exposed beans
+2018-05-09 14:47:41,713 [Thread-59] INFO  com.zaxxer.hikari.HikariDataSource 381 - HikariPool-3 - Shutdown initiated...
+2018-05-09 14:47:41,764 [Thread-59] INFO  com.zaxxer.hikari.HikariDataSource 383 - HikariPool-3 - Shutdown completed.

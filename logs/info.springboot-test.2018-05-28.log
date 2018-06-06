@@ -1,0 +1,72 @@
+2018-05-28 16:48:06,944 [Thread-35] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext 989 - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5b3d1ce5: startup date [Sat May 26 15:21:43 CST 2018]; root of context hierarchy
+2018-05-28 16:48:07,231 [Thread-35] INFO  o.s.c.s.DefaultLifecycleProcessor 366 - Stopping beans in phase 2147483647
+2018-05-28 16:48:07,309 [Thread-35] INFO  org.quartz.core.QuartzScheduler 585 - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2018-05-28 16:48:07,358 [Thread-35] INFO  o.s.s.quartz.SchedulerFactoryBean 810 - Shutting down Quartz Scheduler
+2018-05-28 16:48:07,358 [Thread-35] INFO  org.quartz.core.QuartzScheduler 666 - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2018-05-28 16:48:07,359 [Thread-35] INFO  org.quartz.core.QuartzScheduler 585 - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2018-05-28 16:48:07,360 [Thread-35] INFO  org.quartz.core.QuartzScheduler 740 - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2018-05-28 16:48:07,362 [Thread-35] INFO  o.s.j.e.a.AnnotationMBeanExporter 452 - Unregistering JMX-exposed beans on shutdown
+2018-05-28 16:48:07,368 [Thread-35] INFO  o.s.j.e.a.AnnotationMBeanExporter 183 - Unregistering JMX-exposed beans
+2018-05-28 16:48:07,378 [Thread-35] INFO  com.zaxxer.hikari.pool.HikariPool 265 - HikariCP pool myHikariPool is shutting down.
+2018-05-28 17:00:12,807 [restartedMain] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext 589 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7bee920c: startup date [Mon May 28 17:00:12 CST 2018]; root of context hierarchy
+2018-05-28 17:00:16,105 [restartedMain] INFO  o.s.b.f.s.DefaultListableBeanFactory 824 - Overriding bean definition for bean 'dataSource' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Generic.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]]
+2018-05-28 17:00:19,159 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer 91 - Tomcat initialized with port(s): 8088 (http)
+2018-05-28 17:00:19,182 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol 180 - Initializing ProtocolHandler ["http-nio-8088"]
+2018-05-28 17:00:19,203 [restartedMain] INFO  o.a.catalina.core.StandardService 180 - Starting service [Tomcat]
+2018-05-28 17:00:19,204 [restartedMain] INFO  o.a.catalina.core.StandardEngine 180 - Starting Servlet Engine: Apache Tomcat/8.5.28
+2018-05-28 17:00:19,211 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener 180 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/hackeridear/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2018-05-28 17:00:19,398 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 180 - Initializing Spring embedded WebApplicationContext
+2018-05-28 17:00:19,399 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader 285 - Root WebApplicationContext: initialization completed in 6592 ms
+2018-05-28 17:00:19,856 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean 185 - Servlet dispatcherServlet mapped to [/]
+2018-05-28 17:00:19,859 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean 185 - Servlet statViewServlet mapped to [/druid/*]
+2018-05-28 17:00:19,863 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 243 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-05-28 17:00:19,864 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 243 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-05-28 17:00:19,865 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 243 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-05-28 17:00:19,865 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 243 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-05-28 17:00:19,866 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 256 - Mapping filter: 'webStatFilter' to urls: [/*]
+2018-05-28 17:00:19,867 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 243 - Mapping filter: 'corsFilter' to: [/*]
+2018-05-28 17:03:57,769 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource 103 - HikariCP pool myHikariPool is starting.
+2018-05-28 17:04:00,748 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter 567 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7bee920c: startup date [Mon May 28 17:00:12 CST 2018]; root of context hierarchy
+2018-05-28 17:04:01,013 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 548 - Mapped "{[/config]}" onto public java.lang.String com.springboot.demo.controller.CrossOriginController.getProperties()
+2018-05-28 17:04:01,015 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 548 - Mapped "{[/]}" onto public java.lang.String com.springboot.demo.controller.HelloController.index()
+2018-05-28 17:04:01,019 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 548 - Mapped "{[/myError],methods=[GET]}" onto public java.util.List com.springboot.demo.controller.MyErrorController.testError() throws java.lang.Exception
+2018-05-28 17:04:01,020 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 548 - Mapped "{[/logs],methods=[GET]}" onto public void com.springboot.demo.controller.MyLogController.log()
+2018-05-28 17:04:01,022 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 548 - Mapped "{[/user/list],methods=[GET]}" onto public java.util.List<com.springboot.demo.entity.User> com.springboot.demo.controller.UserController.getCollegeList()
+2018-05-28 17:04:01,022 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 548 - Mapped "{[/user],methods=[GET]}" onto public com.springboot.demo.entity.User com.springboot.demo.controller.UserController.getCollege()
+2018-05-28 17:04:01,023 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 548 - Mapped "{[/user/add],methods=[GET]}" onto public void com.springboot.demo.controller.UserController.addCollege()
+2018-05-28 17:04:01,026 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 548 - Mapped "{[/error]}" onto public com.springboot.demo.common.error.ErrorInfo com.springboot.demo.controller.base.GlobalErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-05-28 17:04:01,027 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 548 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView com.springboot.demo.controller.base.GlobalErrorController.errorHtml(javax.servlet.http.HttpServletRequest)
+2018-05-28 17:04:01,184 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 373 - Mapped URL path [/mystatic/*] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-28 17:04:01,185 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 373 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-28 17:04:01,185 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 373 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-28 17:04:01,395 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 373 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-28 17:04:02,031 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping 56 - Adding welcome page: class path resource [resources/index.html]
+2018-05-28 17:04:03,129 [restartedMain] INFO  o.s.w.s.v.f.FreeMarkerConfigurer 131 - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-05-28 17:04:03,691 [restartedMain] INFO  org.quartz.impl.StdSchedulerFactory 1208 - Using default implementation for ThreadExecutor
+2018-05-28 17:04:03,723 [restartedMain] INFO  o.quartz.core.SchedulerSignalerImpl 61 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2018-05-28 17:04:03,724 [restartedMain] INFO  org.quartz.core.QuartzScheduler 229 - Quartz Scheduler v.2.3.0 created.
+2018-05-28 17:04:03,726 [restartedMain] INFO  org.quartz.simpl.RAMJobStore 155 - RAMJobStore initialized.
+2018-05-28 17:04:03,728 [restartedMain] INFO  org.quartz.core.QuartzScheduler 294 - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-05-28 17:04:03,729 [restartedMain] INFO  org.quartz.impl.StdSchedulerFactory 1362 - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2018-05-28 17:04:03,730 [restartedMain] INFO  org.quartz.impl.StdSchedulerFactory 1366 - Quartz scheduler version: 2.3.0
+2018-05-28 17:04:03,731 [restartedMain] INFO  org.quartz.core.QuartzScheduler 2287 - JobFactory set to: org.springframework.boot.autoconfigure.quartz.AutowireCapableBeanJobFactory@6a4fe722
+2018-05-28 17:04:03,953 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer 57 - LiveReload server is running on port 35729
+2018-05-28 17:04:04,241 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter 434 - Registering beans for JMX exposure on startup
+2018-05-28 17:04:04,246 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter 896 - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-05-28 17:04:04,265 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter 669 - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-05-28 17:04:04,275 [restartedMain] INFO  o.s.c.s.DefaultLifecycleProcessor 351 - Starting beans in phase 2147483647
+2018-05-28 17:04:04,275 [restartedMain] INFO  o.s.s.quartz.SchedulerFactoryBean 686 - Starting Quartz Scheduler now
+2018-05-28 17:04:04,276 [restartedMain] INFO  org.quartz.core.QuartzScheduler 547 - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2018-05-28 17:04:04,298 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol 180 - Starting ProtocolHandler ["http-nio-8088"]
+2018-05-28 17:04:04,322 [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool 180 - Using a shared selector for servlet write/read
+2018-05-28 17:04:04,354 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer 205 - Tomcat started on port(s): 8088 (http) with context path ''
+2018-05-28 17:04:14,799 [http-nio-8088-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 180 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-05-28 17:04:14,800 [http-nio-8088-exec-1] INFO  o.s.web.servlet.DispatcherServlet 494 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-05-28 17:04:14,844 [http-nio-8088-exec-1] INFO  o.s.web.servlet.DispatcherServlet 513 - FrameworkServlet 'dispatcherServlet': initialization completed in 44 ms

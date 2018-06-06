@@ -1,0 +1,480 @@
+2018-06-05 15:51:24,670 [Thread-46] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext 989 - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7bee920c: startup date [Mon May 28 17:00:12 CST 2018]; root of context hierarchy
+2018-06-05 15:51:24,834 [Thread-46] INFO  o.s.c.s.DefaultLifecycleProcessor 366 - Stopping beans in phase 2147483647
+2018-06-05 15:51:24,845 [Thread-46] INFO  org.quartz.core.QuartzScheduler 585 - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2018-06-05 15:51:24,902 [Thread-46] INFO  o.s.s.quartz.SchedulerFactoryBean 810 - Shutting down Quartz Scheduler
+2018-06-05 15:51:24,905 [Thread-46] INFO  org.quartz.core.QuartzScheduler 666 - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2018-06-05 15:51:24,906 [Thread-46] INFO  org.quartz.core.QuartzScheduler 585 - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2018-06-05 15:51:24,909 [Thread-46] INFO  org.quartz.core.QuartzScheduler 740 - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2018-06-05 15:51:24,916 [Thread-46] INFO  o.s.j.e.a.AnnotationMBeanExporter 452 - Unregistering JMX-exposed beans on shutdown
+2018-06-05 15:51:24,925 [Thread-46] INFO  o.s.j.e.a.AnnotationMBeanExporter 183 - Unregistering JMX-exposed beans
+2018-06-05 15:51:24,940 [Thread-46] INFO  com.zaxxer.hikari.pool.HikariPool 265 - HikariCP pool myHikariPool is shutting down.
+2018-06-05 21:09:16,288 [main] INFO  hello.HelloControllerTest 50 - Starting HelloControllerTest on chenjingxuedeMacBook-Pro.local with PID 79996 (started by hackeridear in /Users/hackeridear/idea-268/gs-spring-boot/complete)
+2018-06-05 21:09:16,293 [main] INFO  hello.HelloControllerTest 656 - The following profiles are active: dev
+2018-06-05 21:09:16,378 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext 589 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6c2f1700: startup date [Tue Jun 05 21:09:16 CST 2018]; root of context hierarchy
+2018-06-05 21:09:18,747 [main] INFO  o.s.b.f.s.DefaultListableBeanFactory 824 - Overriding bean definition for bean 'dataSource' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Generic.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]]
+2018-06-05 21:09:21,847 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 91 - Tomcat initialized with port(s): 0 (http)
+2018-06-05 21:09:21,892 [main] INFO  o.a.coyote.http11.Http11NioProtocol 180 - Initializing ProtocolHandler ["http-nio-auto-1"]
+2018-06-05 21:09:21,926 [main] INFO  o.a.catalina.core.StandardService 180 - Starting service [Tomcat]
+2018-06-05 21:09:21,928 [main] INFO  o.a.catalina.core.StandardEngine 180 - Starting Servlet Engine: Apache Tomcat/8.5.28
+2018-06-05 21:09:21,959 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener 180 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/hackeridear/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2018-06-05 21:09:22,278 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 180 - Initializing Spring embedded WebApplicationContext
+2018-06-05 21:09:22,278 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader 285 - Root WebApplicationContext: initialization completed in 5900 ms
+2018-06-05 21:09:22,944 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean 185 - Servlet dispatcherServlet mapped to [/]
+2018-06-05 21:09:22,947 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean 185 - Servlet statViewServlet mapped to [/druid/*]
+2018-06-05 21:09:22,955 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 243 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-06-05 21:09:22,957 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 243 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-06-05 21:09:22,957 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 243 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-06-05 21:09:22,958 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 243 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-06-05 21:09:22,958 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 256 - Mapping filter: 'webStatFilter' to urls: [/*]
+2018-06-05 21:09:22,959 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 243 - Mapping filter: 'corsFilter' to: [/*]
+2018-06-05 21:09:23,932 [main] INFO  com.zaxxer.hikari.HikariDataSource 103 - HikariCP pool myHikariPool is starting.
+2018-06-05 21:09:25,521 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 180 - Initializing Spring FrameworkServlet ''
+2018-06-05 21:09:25,522 [main] INFO  o.s.t.w.s.TestDispatcherServlet 494 - FrameworkServlet '': initialization started
+2018-06-05 21:09:25,883 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 548 - Mapped "{[/config]}" onto public java.lang.String com.springboot.demo.controller.CrossOriginController.getProperties()
+2018-06-05 21:09:25,885 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 548 - Mapped "{[/]}" onto public java.lang.String com.springboot.demo.controller.HelloController.index()
+2018-06-05 21:09:25,889 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 548 - Mapped "{[/myError],methods=[GET]}" onto public java.util.List com.springboot.demo.controller.MyErrorController.testError() throws java.lang.Exception
+2018-06-05 21:09:25,890 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 548 - Mapped "{[/logs],methods=[GET]}" onto public void com.springboot.demo.controller.MyLogController.log()
+2018-06-05 21:09:25,892 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 548 - Mapped "{[/user/list],methods=[GET]}" onto public java.util.List<com.springboot.demo.entity.User> com.springboot.demo.controller.UserController.getCollegeList()
+2018-06-05 21:09:25,893 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 548 - Mapped "{[/user],methods=[GET]}" onto public com.springboot.demo.entity.User com.springboot.demo.controller.UserController.getCollege()
+2018-06-05 21:09:25,894 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 548 - Mapped "{[/user/add],methods=[GET]}" onto public void com.springboot.demo.controller.UserController.addCollege()
+2018-06-05 21:09:25,897 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 548 - Mapped "{[/error]}" onto public com.springboot.demo.common.error.ErrorInfo com.springboot.demo.controller.base.GlobalErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-06-05 21:09:25,899 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 548 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView com.springboot.demo.controller.base.GlobalErrorController.errorHtml(javax.servlet.http.HttpServletRequest)
+2018-06-05 21:09:26,096 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 373 - Mapped URL path [/mystatic/*] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-05 21:09:26,097 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 373 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-05 21:09:26,098 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 373 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-05 21:09:26,248 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 373 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-05 21:09:26,271 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping 56 - Adding welcome page: class path resource [resources/index.html]
+2018-06-05 21:09:27,020 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter 567 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6c2f1700: startup date [Tue Jun 05 21:09:16 CST 2018]; root of context hierarchy
+2018-06-05 21:09:27,619 [main] INFO  o.s.t.w.s.TestDispatcherServlet 513 - FrameworkServlet '': initialization completed in 2096 ms
+2018-06-05 21:09:28,453 [main] INFO  o.s.w.s.v.f.FreeMarkerConfigurer 131 - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-06-05 21:09:29,224 [main] INFO  org.quartz.impl.StdSchedulerFactory 1208 - Using default implementation for ThreadExecutor
+2018-06-05 21:09:29,256 [main] INFO  o.quartz.core.SchedulerSignalerImpl 61 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2018-06-05 21:09:29,256 [main] INFO  org.quartz.core.QuartzScheduler 229 - Quartz Scheduler v.2.3.0 created.
+2018-06-05 21:09:29,258 [main] INFO  org.quartz.simpl.RAMJobStore 155 - RAMJobStore initialized.
+2018-06-05 21:09:29,260 [main] INFO  org.quartz.core.QuartzScheduler 294 - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-06-05 21:09:29,260 [main] INFO  org.quartz.impl.StdSchedulerFactory 1362 - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2018-06-05 21:09:29,261 [main] INFO  org.quartz.impl.StdSchedulerFactory 1366 - Quartz scheduler version: 2.3.0
+2018-06-05 21:09:29,261 [main] INFO  org.quartz.core.QuartzScheduler 2287 - JobFactory set to: org.springframework.boot.autoconfigure.quartz.AutowireCapableBeanJobFactory@4e2109fe
+2018-06-05 21:09:29,918 [main] INFO  o.s.c.s.DefaultLifecycleProcessor 351 - Starting beans in phase 2147483647
+2018-06-05 21:09:29,919 [main] INFO  o.s.s.quartz.SchedulerFactoryBean 686 - Starting Quartz Scheduler now
+2018-06-05 21:09:29,919 [main] INFO  org.quartz.core.QuartzScheduler 547 - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2018-06-05 21:09:29,933 [main] INFO  o.a.coyote.http11.Http11NioProtocol 180 - Starting ProtocolHandler ["http-nio-auto-1"]
+2018-06-05 21:09:29,972 [main] INFO  o.a.tomcat.util.net.NioSelectorPool 180 - Using a shared selector for servlet write/read
+2018-06-05 21:09:30,018 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 205 - Tomcat started on port(s): 64054 (http) with context path ''
+2018-06-05 21:09:30,026 [main] INFO  hello.HelloControllerTest 59 - Started HelloControllerTest in 17.194 seconds (JVM running for 21.89)
+2018-06-05 21:09:30,646 [Thread-6] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext 989 - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6c2f1700: startup date [Tue Jun 05 21:09:16 CST 2018]; root of context hierarchy
+2018-06-05 21:09:30,649 [Thread-6] INFO  o.s.c.s.DefaultLifecycleProcessor 366 - Stopping beans in phase 2147483647
+2018-06-05 21:09:30,652 [Thread-6] INFO  org.quartz.core.QuartzScheduler 585 - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2018-06-05 21:09:30,656 [Thread-6] INFO  o.s.s.quartz.SchedulerFactoryBean 810 - Shutting down Quartz Scheduler
+2018-06-05 21:09:30,657 [Thread-6] INFO  org.quartz.core.QuartzScheduler 666 - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2018-06-05 21:09:30,658 [Thread-6] INFO  org.quartz.core.QuartzScheduler 585 - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2018-06-05 21:09:30,661 [Thread-6] INFO  org.quartz.core.QuartzScheduler 740 - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2018-06-05 21:09:30,664 [Thread-6] INFO  com.zaxxer.hikari.pool.HikariPool 265 - HikariCP pool myHikariPool is shutting down.
+2018-06-05 21:10:51,338 [main] INFO  hello.SpringLTWTest 50 - Starting SpringLTWTest on chenjingxuedeMacBook-Pro.local with PID 80012 (started by hackeridear in /Users/hackeridear/idea-268/gs-spring-boot/complete)
+2018-06-05 21:10:51,342 [main] INFO  hello.SpringLTWTest 656 - The following profiles are active: dev
+2018-06-05 21:10:51,519 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext 589 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7da10b5b: startup date [Tue Jun 05 21:10:51 CST 2018]; root of context hierarchy
+2018-06-05 21:10:53,983 [main] INFO  o.s.b.f.s.DefaultListableBeanFactory 824 - Overriding bean definition for bean 'dataSource' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Generic.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]]
+2018-06-05 21:10:57,498 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 91 - Tomcat initialized with port(s): 0 (http)
+2018-06-05 21:10:57,543 [main] INFO  o.a.coyote.http11.Http11NioProtocol 180 - Initializing ProtocolHandler ["http-nio-auto-1"]
+2018-06-05 21:10:57,585 [main] INFO  o.a.catalina.core.StandardService 180 - Starting service [Tomcat]
+2018-06-05 21:10:57,585 [main] INFO  o.a.catalina.core.StandardEngine 180 - Starting Servlet Engine: Apache Tomcat/8.5.28
+2018-06-05 21:10:57,602 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener 180 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/hackeridear/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2018-06-05 21:10:57,822 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 180 - Initializing Spring embedded WebApplicationContext
+2018-06-05 21:10:57,823 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader 285 - Root WebApplicationContext: initialization completed in 6305 ms
+2018-06-05 21:10:58,546 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean 185 - Servlet dispatcherServlet mapped to [/]
+2018-06-05 21:10:58,550 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean 185 - Servlet statViewServlet mapped to [/druid/*]
+2018-06-05 21:10:58,556 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 243 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-06-05 21:10:58,557 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 243 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-06-05 21:10:58,558 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 243 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-06-05 21:10:58,558 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 243 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-06-05 21:10:58,559 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 256 - Mapping filter: 'webStatFilter' to urls: [/*]
+2018-06-05 21:10:58,559 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 243 - Mapping filter: 'corsFilter' to: [/*]
+2018-06-05 21:10:59,298 [main] INFO  com.zaxxer.hikari.HikariDataSource 103 - HikariCP pool myHikariPool is starting.
+2018-06-05 21:11:01,634 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter 567 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7da10b5b: startup date [Tue Jun 05 21:10:51 CST 2018]; root of context hierarchy
+2018-06-05 21:11:01,846 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 548 - Mapped "{[/config]}" onto public java.lang.String com.springboot.demo.controller.CrossOriginController.getProperties()
+2018-06-05 21:11:01,851 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 548 - Mapped "{[/]}" onto public java.lang.String com.springboot.demo.controller.HelloController.index()
+2018-06-05 21:11:01,856 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 548 - Mapped "{[/myError],methods=[GET]}" onto public java.util.List com.springboot.demo.controller.MyErrorController.testError() throws java.lang.Exception
+2018-06-05 21:11:01,859 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 548 - Mapped "{[/logs],methods=[GET]}" onto public void com.springboot.demo.controller.MyLogController.log()
+2018-06-05 21:11:01,875 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 548 - Mapped "{[/user/list],methods=[GET]}" onto public java.util.List<com.springboot.demo.entity.User> com.springboot.demo.controller.UserController.getCollegeList()
+2018-06-05 21:11:01,877 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 548 - Mapped "{[/user],methods=[GET]}" onto public com.springboot.demo.entity.User com.springboot.demo.controller.UserController.getCollege()
+2018-06-05 21:11:01,879 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 548 - Mapped "{[/user/add],methods=[GET]}" onto public void com.springboot.demo.controller.UserController.addCollege()
+2018-06-05 21:11:01,882 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 548 - Mapped "{[/error]}" onto public com.springboot.demo.common.error.ErrorInfo com.springboot.demo.controller.base.GlobalErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-06-05 21:11:01,884 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 548 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView com.springboot.demo.controller.base.GlobalErrorController.errorHtml(javax.servlet.http.HttpServletRequest)
+2018-06-05 21:11:02,028 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 373 - Mapped URL path [/mystatic/*] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-05 21:11:02,028 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 373 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-05 21:11:02,029 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 373 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-05 21:11:02,277 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 373 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-05 21:11:02,820 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping 56 - Adding welcome page: class path resource [resources/index.html]
+2018-06-05 21:11:03,335 [main] INFO  o.s.w.s.v.f.FreeMarkerConfigurer 131 - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-06-05 21:11:03,719 [main] INFO  org.quartz.impl.StdSchedulerFactory 1208 - Using default implementation for ThreadExecutor
+2018-06-05 21:11:03,756 [main] INFO  o.quartz.core.SchedulerSignalerImpl 61 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2018-06-05 21:11:03,757 [main] INFO  org.quartz.core.QuartzScheduler 229 - Quartz Scheduler v.2.3.0 created.
+2018-06-05 21:11:03,759 [main] INFO  org.quartz.simpl.RAMJobStore 155 - RAMJobStore initialized.
+2018-06-05 21:11:03,761 [main] INFO  org.quartz.core.QuartzScheduler 294 - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-06-05 21:11:03,761 [main] INFO  org.quartz.impl.StdSchedulerFactory 1362 - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2018-06-05 21:11:03,762 [main] INFO  org.quartz.impl.StdSchedulerFactory 1366 - Quartz scheduler version: 2.3.0
+2018-06-05 21:11:03,762 [main] INFO  org.quartz.core.QuartzScheduler 2287 - JobFactory set to: org.springframework.boot.autoconfigure.quartz.AutowireCapableBeanJobFactory@402a69f
+2018-06-05 21:11:04,356 [main] INFO  o.s.c.s.DefaultLifecycleProcessor 351 - Starting beans in phase 2147483647
+2018-06-05 21:11:04,356 [main] INFO  o.s.s.quartz.SchedulerFactoryBean 686 - Starting Quartz Scheduler now
+2018-06-05 21:11:04,357 [main] INFO  org.quartz.core.QuartzScheduler 547 - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2018-06-05 21:11:04,373 [main] INFO  o.a.coyote.http11.Http11NioProtocol 180 - Starting ProtocolHandler ["http-nio-auto-1"]
+2018-06-05 21:11:04,399 [main] INFO  o.a.tomcat.util.net.NioSelectorPool 180 - Using a shared selector for servlet write/read
+2018-06-05 21:11:04,429 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 205 - Tomcat started on port(s): 64090 (http) with context path ''
+2018-06-05 21:11:04,435 [main] INFO  hello.SpringLTWTest 59 - Started SpringLTWTest in 15.651 seconds (JVM running for 19.616)
+2018-06-05 21:12:08,889 [Thread-5] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext 989 - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7da10b5b: startup date [Tue Jun 05 21:10:51 CST 2018]; root of context hierarchy
+2018-06-05 21:12:08,892 [Thread-5] INFO  o.s.c.s.DefaultLifecycleProcessor 366 - Stopping beans in phase 2147483647
+2018-06-05 21:12:08,893 [Thread-5] INFO  org.quartz.core.QuartzScheduler 585 - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2018-06-05 21:12:08,895 [Thread-5] INFO  o.s.s.quartz.SchedulerFactoryBean 810 - Shutting down Quartz Scheduler
+2018-06-05 21:12:08,895 [Thread-5] INFO  org.quartz.core.QuartzScheduler 666 - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2018-06-05 21:12:08,896 [Thread-5] INFO  org.quartz.core.QuartzScheduler 585 - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2018-06-05 21:12:08,896 [Thread-5] INFO  org.quartz.core.QuartzScheduler 740 - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2018-06-05 21:12:08,898 [Thread-5] INFO  com.zaxxer.hikari.pool.HikariPool 265 - HikariCP pool myHikariPool is shutting down.
+2018-06-05 21:15:01,195 [main] INFO  hello.SpringLTWTest 50 - Starting SpringLTWTest on chenjingxuedeMacBook-Pro.local with PID 80291 (started by hackeridear in /Users/hackeridear/idea-268/gs-spring-boot/complete)
+2018-06-05 21:15:01,198 [main] INFO  hello.SpringLTWTest 656 - The following profiles are active: dev
+2018-06-05 21:15:01,275 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext 589 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@f325091: startup date [Tue Jun 05 21:15:01 CST 2018]; root of context hierarchy
+2018-06-05 21:15:04,519 [main] INFO  o.s.b.f.s.DefaultListableBeanFactory 824 - Overriding bean definition for bean 'dataSource' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Generic.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]]
+2018-06-05 21:15:08,124 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 91 - Tomcat initialized with port(s): 0 (http)
+2018-06-05 21:15:08,159 [main] INFO  o.a.coyote.http11.Http11NioProtocol 180 - Initializing ProtocolHandler ["http-nio-auto-1"]
+2018-06-05 21:15:08,190 [main] INFO  o.a.catalina.core.StandardService 180 - Starting service [Tomcat]
+2018-06-05 21:15:08,190 [main] INFO  o.a.catalina.core.StandardEngine 180 - Starting Servlet Engine: Apache Tomcat/8.5.28
+2018-06-05 21:15:08,212 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener 180 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/hackeridear/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2018-06-05 21:15:08,484 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 180 - Initializing Spring embedded WebApplicationContext
+2018-06-05 21:15:08,485 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader 285 - Root WebApplicationContext: initialization completed in 7210 ms
+2018-06-05 21:15:09,225 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean 185 - Servlet dispatcherServlet mapped to [/]
+2018-06-05 21:15:09,230 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean 185 - Servlet statViewServlet mapped to [/druid/*]
+2018-06-05 21:15:09,243 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 243 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-06-05 21:15:09,248 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 243 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-06-05 21:15:09,250 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 243 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-06-05 21:15:09,252 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 243 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-06-05 21:15:09,254 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 256 - Mapping filter: 'webStatFilter' to urls: [/*]
+2018-06-05 21:15:09,254 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 243 - Mapping filter: 'corsFilter' to: [/*]
+2018-06-05 21:15:10,137 [main] INFO  com.zaxxer.hikari.HikariDataSource 103 - HikariCP pool myHikariPool is starting.
+2018-06-05 21:15:15,478 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter 567 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@f325091: startup date [Tue Jun 05 21:15:01 CST 2018]; root of context hierarchy
+2018-06-05 21:15:16,407 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 548 - Mapped "{[/config]}" onto public java.lang.String com.springboot.demo.controller.CrossOriginController.getProperties()
+2018-06-05 21:15:16,411 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 548 - Mapped "{[/]}" onto public java.lang.String com.springboot.demo.controller.HelloController.index()
+2018-06-05 21:15:16,418 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 548 - Mapped "{[/myError],methods=[GET]}" onto public java.util.List com.springboot.demo.controller.MyErrorController.testError() throws java.lang.Exception
+2018-06-05 21:15:16,419 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 548 - Mapped "{[/logs],methods=[GET]}" onto public void com.springboot.demo.controller.MyLogController.log()
+2018-06-05 21:15:16,429 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 548 - Mapped "{[/user/list],methods=[GET]}" onto public java.util.List<com.springboot.demo.entity.User> com.springboot.demo.controller.UserController.getCollegeList()
+2018-06-05 21:15:16,430 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 548 - Mapped "{[/user],methods=[GET]}" onto public com.springboot.demo.entity.User com.springboot.demo.controller.UserController.getCollege()
+2018-06-05 21:15:16,431 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 548 - Mapped "{[/user/add],methods=[GET]}" onto public void com.springboot.demo.controller.UserController.addCollege()
+2018-06-05 21:15:16,436 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 548 - Mapped "{[/error]}" onto public com.springboot.demo.common.error.ErrorInfo com.springboot.demo.controller.base.GlobalErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-06-05 21:15:16,437 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 548 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView com.springboot.demo.controller.base.GlobalErrorController.errorHtml(javax.servlet.http.HttpServletRequest)
+2018-06-05 21:15:16,707 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 373 - Mapped URL path [/mystatic/*] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-05 21:15:16,707 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 373 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-05 21:15:16,708 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 373 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-05 21:15:16,932 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 373 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-05 21:15:17,759 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping 56 - Adding welcome page: class path resource [resources/index.html]
+2018-06-05 21:15:18,620 [main] INFO  o.s.w.s.v.f.FreeMarkerConfigurer 131 - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-06-05 21:15:19,323 [main] INFO  org.quartz.impl.StdSchedulerFactory 1208 - Using default implementation for ThreadExecutor
+2018-06-05 21:15:19,370 [main] INFO  o.quartz.core.SchedulerSignalerImpl 61 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2018-06-05 21:15:19,371 [main] INFO  org.quartz.core.QuartzScheduler 229 - Quartz Scheduler v.2.3.0 created.
+2018-06-05 21:15:19,373 [main] INFO  org.quartz.simpl.RAMJobStore 155 - RAMJobStore initialized.
+2018-06-05 21:15:19,375 [main] INFO  org.quartz.core.QuartzScheduler 294 - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-06-05 21:15:19,376 [main] INFO  org.quartz.impl.StdSchedulerFactory 1362 - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2018-06-05 21:15:19,376 [main] INFO  org.quartz.impl.StdSchedulerFactory 1366 - Quartz scheduler version: 2.3.0
+2018-06-05 21:15:19,377 [main] INFO  org.quartz.core.QuartzScheduler 2287 - JobFactory set to: org.springframework.boot.autoconfigure.quartz.AutowireCapableBeanJobFactory@2fb48970
+2018-06-05 21:15:20,135 [main] INFO  o.s.c.s.DefaultLifecycleProcessor 351 - Starting beans in phase 2147483647
+2018-06-05 21:15:20,137 [main] INFO  o.s.s.quartz.SchedulerFactoryBean 686 - Starting Quartz Scheduler now
+2018-06-05 21:15:20,139 [main] INFO  org.quartz.core.QuartzScheduler 547 - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2018-06-05 21:15:20,159 [main] INFO  o.a.coyote.http11.Http11NioProtocol 180 - Starting ProtocolHandler ["http-nio-auto-1"]
+2018-06-05 21:15:20,288 [main] INFO  o.a.tomcat.util.net.NioSelectorPool 180 - Using a shared selector for servlet write/read
+2018-06-05 21:15:20,355 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 205 - Tomcat started on port(s): 64179 (http) with context path ''
+2018-06-05 21:15:20,367 [main] INFO  hello.SpringLTWTest 59 - Started SpringLTWTest in 22.233 seconds (JVM running for 26.749)
+2018-06-05 21:15:52,482 [Thread-5] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext 989 - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@f325091: startup date [Tue Jun 05 21:15:01 CST 2018]; root of context hierarchy
+2018-06-05 21:15:52,491 [Thread-5] INFO  o.s.c.s.DefaultLifecycleProcessor 366 - Stopping beans in phase 2147483647
+2018-06-05 21:15:52,492 [Thread-5] INFO  org.quartz.core.QuartzScheduler 585 - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2018-06-05 21:15:52,494 [Thread-5] INFO  o.s.s.quartz.SchedulerFactoryBean 810 - Shutting down Quartz Scheduler
+2018-06-05 21:15:52,495 [Thread-5] INFO  org.quartz.core.QuartzScheduler 666 - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2018-06-05 21:15:52,495 [Thread-5] INFO  org.quartz.core.QuartzScheduler 585 - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2018-06-05 21:15:52,495 [Thread-5] INFO  org.quartz.core.QuartzScheduler 740 - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2018-06-05 21:15:52,497 [Thread-5] INFO  com.zaxxer.hikari.pool.HikariPool 265 - HikariCP pool myHikariPool is shutting down.
+2018-06-05 21:15:52,507 [HikariCP connection filler (pool myHikariPool)] INFO  com.zaxxer.hikari.util.ConcurrentBag 177 - ConcurrentBag has been closed, ignoring add()
+2018-06-05 21:17:24,119 [main] INFO  hello.SpringLTWTest 50 - Starting SpringLTWTest on chenjingxuedeMacBook-Pro.local with PID 80311 (started by hackeridear in /Users/hackeridear/idea-268/gs-spring-boot/complete)
+2018-06-05 21:17:24,124 [main] INFO  hello.SpringLTWTest 656 - The following profiles are active: dev
+2018-06-05 21:17:24,194 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext 589 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@503fbbc6: startup date [Tue Jun 05 21:17:24 CST 2018]; root of context hierarchy
+2018-06-05 21:17:25,907 [main] INFO  o.s.b.f.s.DefaultListableBeanFactory 824 - Overriding bean definition for bean 'dataSource' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Generic.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]]
+2018-06-05 21:17:28,810 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 91 - Tomcat initialized with port(s): 0 (http)
+2018-06-05 21:17:28,845 [main] INFO  o.a.coyote.http11.Http11NioProtocol 180 - Initializing ProtocolHandler ["http-nio-auto-1"]
+2018-06-05 21:17:28,879 [main] INFO  o.a.catalina.core.StandardService 180 - Starting service [Tomcat]
+2018-06-05 21:17:28,880 [main] INFO  o.a.catalina.core.StandardEngine 180 - Starting Servlet Engine: Apache Tomcat/8.5.28
+2018-06-05 21:17:28,911 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener 180 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/hackeridear/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2018-06-05 21:17:29,188 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 180 - Initializing Spring embedded WebApplicationContext
+2018-06-05 21:17:29,188 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader 285 - Root WebApplicationContext: initialization completed in 4995 ms
+2018-06-05 21:17:29,811 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean 185 - Servlet dispatcherServlet mapped to [/]
+2018-06-05 21:17:29,814 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean 185 - Servlet statViewServlet mapped to [/druid/*]
+2018-06-05 21:17:29,826 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 243 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-06-05 21:17:29,827 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 243 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-06-05 21:17:29,828 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 243 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-06-05 21:17:29,828 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 243 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-06-05 21:17:29,831 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 256 - Mapping filter: 'webStatFilter' to urls: [/*]
+2018-06-05 21:17:29,832 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 243 - Mapping filter: 'corsFilter' to: [/*]
+2018-06-05 21:17:30,751 [main] INFO  com.zaxxer.hikari.HikariDataSource 103 - HikariCP pool myHikariPool is starting.
+2018-06-05 21:17:32,947 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter 567 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@503fbbc6: startup date [Tue Jun 05 21:17:24 CST 2018]; root of context hierarchy
+2018-06-05 21:17:33,152 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 548 - Mapped "{[/config]}" onto public java.lang.String com.springboot.demo.controller.CrossOriginController.getProperties()
+2018-06-05 21:17:33,154 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 548 - Mapped "{[/]}" onto public java.lang.String com.springboot.demo.controller.HelloController.index()
+2018-06-05 21:17:33,158 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 548 - Mapped "{[/myError],methods=[GET]}" onto public java.util.List com.springboot.demo.controller.MyErrorController.testError() throws java.lang.Exception
+2018-06-05 21:17:33,159 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 548 - Mapped "{[/logs],methods=[GET]}" onto public void com.springboot.demo.controller.MyLogController.log()
+2018-06-05 21:17:33,172 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 548 - Mapped "{[/user/list],methods=[GET]}" onto public java.util.List<com.springboot.demo.entity.User> com.springboot.demo.controller.UserController.getCollegeList()
+2018-06-05 21:17:33,176 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 548 - Mapped "{[/user],methods=[GET]}" onto public com.springboot.demo.entity.User com.springboot.demo.controller.UserController.getCollege()
+2018-06-05 21:17:33,180 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 548 - Mapped "{[/user/add],methods=[GET]}" onto public void com.springboot.demo.controller.UserController.addCollege()
+2018-06-05 21:17:33,189 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 548 - Mapped "{[/error]}" onto public com.springboot.demo.common.error.ErrorInfo com.springboot.demo.controller.base.GlobalErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-06-05 21:17:33,193 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 548 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView com.springboot.demo.controller.base.GlobalErrorController.errorHtml(javax.servlet.http.HttpServletRequest)
+2018-06-05 21:17:33,339 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 373 - Mapped URL path [/mystatic/*] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-05 21:17:33,339 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 373 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-05 21:17:33,339 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 373 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-05 21:17:33,535 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 373 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-05 21:17:33,892 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping 56 - Adding welcome page: class path resource [resources/index.html]
+2018-06-05 21:17:34,337 [main] INFO  o.s.w.s.v.f.FreeMarkerConfigurer 131 - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-06-05 21:17:34,744 [main] INFO  org.quartz.impl.StdSchedulerFactory 1208 - Using default implementation for ThreadExecutor
+2018-06-05 21:17:34,782 [main] INFO  o.quartz.core.SchedulerSignalerImpl 61 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2018-06-05 21:17:34,783 [main] INFO  org.quartz.core.QuartzScheduler 229 - Quartz Scheduler v.2.3.0 created.
+2018-06-05 21:17:34,786 [main] INFO  org.quartz.simpl.RAMJobStore 155 - RAMJobStore initialized.
+2018-06-05 21:17:34,788 [main] INFO  org.quartz.core.QuartzScheduler 294 - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-06-05 21:17:34,788 [main] INFO  org.quartz.impl.StdSchedulerFactory 1362 - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2018-06-05 21:17:34,789 [main] INFO  org.quartz.impl.StdSchedulerFactory 1366 - Quartz scheduler version: 2.3.0
+2018-06-05 21:17:34,789 [main] INFO  org.quartz.core.QuartzScheduler 2287 - JobFactory set to: org.springframework.boot.autoconfigure.quartz.AutowireCapableBeanJobFactory@2dbf2da
+2018-06-05 21:17:35,589 [main] INFO  o.s.c.s.DefaultLifecycleProcessor 351 - Starting beans in phase 2147483647
+2018-06-05 21:17:35,590 [main] INFO  o.s.s.quartz.SchedulerFactoryBean 686 - Starting Quartz Scheduler now
+2018-06-05 21:17:35,590 [main] INFO  org.quartz.core.QuartzScheduler 547 - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2018-06-05 21:17:35,611 [main] INFO  o.a.coyote.http11.Http11NioProtocol 180 - Starting ProtocolHandler ["http-nio-auto-1"]
+2018-06-05 21:17:35,659 [main] INFO  o.a.tomcat.util.net.NioSelectorPool 180 - Using a shared selector for servlet write/read
+2018-06-05 21:17:35,694 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 205 - Tomcat started on port(s): 64233 (http) with context path ''
+2018-06-05 21:17:35,701 [main] INFO  hello.SpringLTWTest 59 - Started SpringLTWTest in 14.193 seconds (JVM running for 18.473)
+2018-06-05 21:17:55,526 [Thread-5] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext 989 - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@503fbbc6: startup date [Tue Jun 05 21:17:24 CST 2018]; root of context hierarchy
+2018-06-05 21:17:55,531 [Thread-5] INFO  o.s.c.s.DefaultLifecycleProcessor 366 - Stopping beans in phase 2147483647
+2018-06-05 21:17:55,533 [Thread-5] INFO  org.quartz.core.QuartzScheduler 585 - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2018-06-05 21:17:55,537 [Thread-5] INFO  o.s.s.quartz.SchedulerFactoryBean 810 - Shutting down Quartz Scheduler
+2018-06-05 21:17:55,537 [Thread-5] INFO  org.quartz.core.QuartzScheduler 666 - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2018-06-05 21:17:55,537 [Thread-5] INFO  org.quartz.core.QuartzScheduler 585 - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2018-06-05 21:17:55,537 [Thread-5] INFO  org.quartz.core.QuartzScheduler 740 - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2018-06-05 21:17:55,539 [Thread-5] INFO  com.zaxxer.hikari.pool.HikariPool 265 - HikariCP pool myHikariPool is shutting down.
+2018-06-05 21:20:15,224 [main] INFO  hello.SpringLTWTest 50 - Starting SpringLTWTest on chenjingxuedeMacBook-Pro.local with PID 80333 (started by hackeridear in /Users/hackeridear/idea-268/gs-spring-boot/complete)
+2018-06-05 21:20:15,227 [main] INFO  hello.SpringLTWTest 656 - The following profiles are active: dev
+2018-06-05 21:20:15,294 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext 589 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@36453307: startup date [Tue Jun 05 21:20:15 CST 2018]; root of context hierarchy
+2018-06-05 21:20:17,639 [main] INFO  o.s.b.f.s.DefaultListableBeanFactory 824 - Overriding bean definition for bean 'dataSource' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Generic.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]]
+2018-06-05 21:20:21,318 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 91 - Tomcat initialized with port(s): 0 (http)
+2018-06-05 21:20:21,358 [main] INFO  o.a.coyote.http11.Http11NioProtocol 180 - Initializing ProtocolHandler ["http-nio-auto-1"]
+2018-06-05 21:20:21,390 [main] INFO  o.a.catalina.core.StandardService 180 - Starting service [Tomcat]
+2018-06-05 21:20:21,391 [main] INFO  o.a.catalina.core.StandardEngine 180 - Starting Servlet Engine: Apache Tomcat/8.5.28
+2018-06-05 21:20:21,419 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener 180 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/hackeridear/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2018-06-05 21:20:21,767 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 180 - Initializing Spring embedded WebApplicationContext
+2018-06-05 21:20:21,768 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader 285 - Root WebApplicationContext: initialization completed in 6474 ms
+2018-06-05 21:20:22,443 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean 185 - Servlet dispatcherServlet mapped to [/]
+2018-06-05 21:20:22,446 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean 185 - Servlet statViewServlet mapped to [/druid/*]
+2018-06-05 21:20:22,477 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 243 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-06-05 21:20:22,479 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 243 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-06-05 21:20:22,480 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 243 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-06-05 21:20:22,480 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 243 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-06-05 21:20:22,481 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 256 - Mapping filter: 'webStatFilter' to urls: [/*]
+2018-06-05 21:20:22,481 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 243 - Mapping filter: 'corsFilter' to: [/*]
+2018-06-05 21:20:23,391 [main] INFO  com.zaxxer.hikari.HikariDataSource 103 - HikariCP pool myHikariPool is starting.
+2018-06-05 21:20:43,882 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter 567 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@36453307: startup date [Tue Jun 05 21:20:15 CST 2018]; root of context hierarchy
+2018-06-05 21:20:44,133 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 548 - Mapped "{[/config]}" onto public java.lang.String com.springboot.demo.controller.CrossOriginController.getProperties()
+2018-06-05 21:20:44,144 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 548 - Mapped "{[/]}" onto public java.lang.String com.springboot.demo.controller.HelloController.index()
+2018-06-05 21:20:44,179 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 548 - Mapped "{[/myError],methods=[GET]}" onto public java.util.List com.springboot.demo.controller.MyErrorController.testError() throws java.lang.Exception
+2018-06-05 21:20:44,182 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 548 - Mapped "{[/logs],methods=[GET]}" onto public void com.springboot.demo.controller.MyLogController.log()
+2018-06-05 21:20:44,194 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 548 - Mapped "{[/user/list],methods=[GET]}" onto public java.util.List<com.springboot.demo.entity.User> com.springboot.demo.controller.UserController.getCollegeList()
+2018-06-05 21:20:44,197 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 548 - Mapped "{[/user],methods=[GET]}" onto public com.springboot.demo.entity.User com.springboot.demo.controller.UserController.getCollege()
+2018-06-05 21:20:44,203 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 548 - Mapped "{[/user/add],methods=[GET]}" onto public void com.springboot.demo.controller.UserController.addCollege()
+2018-06-05 21:20:44,220 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 548 - Mapped "{[/error]}" onto public com.springboot.demo.common.error.ErrorInfo com.springboot.demo.controller.base.GlobalErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-06-05 21:20:44,227 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 548 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView com.springboot.demo.controller.base.GlobalErrorController.errorHtml(javax.servlet.http.HttpServletRequest)
+2018-06-05 21:20:44,688 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 373 - Mapped URL path [/mystatic/*] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-05 21:20:44,688 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 373 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-05 21:20:44,689 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 373 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-05 21:20:44,877 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 373 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-05 21:20:45,415 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping 56 - Adding welcome page: class path resource [resources/index.html]
+2018-06-05 21:20:46,017 [main] INFO  o.s.w.s.v.f.FreeMarkerConfigurer 131 - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-06-05 21:20:46,433 [main] INFO  org.quartz.impl.StdSchedulerFactory 1208 - Using default implementation for ThreadExecutor
+2018-06-05 21:20:46,477 [main] INFO  o.quartz.core.SchedulerSignalerImpl 61 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2018-06-05 21:20:46,478 [main] INFO  org.quartz.core.QuartzScheduler 229 - Quartz Scheduler v.2.3.0 created.
+2018-06-05 21:20:46,480 [main] INFO  org.quartz.simpl.RAMJobStore 155 - RAMJobStore initialized.
+2018-06-05 21:20:46,483 [main] INFO  org.quartz.core.QuartzScheduler 294 - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-06-05 21:20:46,484 [main] INFO  org.quartz.impl.StdSchedulerFactory 1362 - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2018-06-05 21:20:46,485 [main] INFO  org.quartz.impl.StdSchedulerFactory 1366 - Quartz scheduler version: 2.3.0
+2018-06-05 21:20:46,486 [main] INFO  org.quartz.core.QuartzScheduler 2287 - JobFactory set to: org.springframework.boot.autoconfigure.quartz.AutowireCapableBeanJobFactory@48af5f38
+2018-06-05 21:20:47,254 [main] INFO  o.s.c.s.DefaultLifecycleProcessor 351 - Starting beans in phase 2147483647
+2018-06-05 21:20:47,255 [main] INFO  o.s.s.quartz.SchedulerFactoryBean 686 - Starting Quartz Scheduler now
+2018-06-05 21:20:47,256 [main] INFO  org.quartz.core.QuartzScheduler 547 - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2018-06-05 21:20:47,269 [main] INFO  o.a.coyote.http11.Http11NioProtocol 180 - Starting ProtocolHandler ["http-nio-auto-1"]
+2018-06-05 21:20:47,303 [main] INFO  o.a.tomcat.util.net.NioSelectorPool 180 - Using a shared selector for servlet write/read
+2018-06-05 21:20:47,343 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 205 - Tomcat started on port(s): 64405 (http) with context path ''
+2018-06-05 21:20:47,350 [main] INFO  hello.SpringLTWTest 59 - Started SpringLTWTest in 34.963 seconds (JVM running for 39.104)
+2018-06-05 21:21:15,237 [Thread-5] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext 989 - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@36453307: startup date [Tue Jun 05 21:20:15 CST 2018]; root of context hierarchy
+2018-06-05 21:21:15,241 [Thread-5] INFO  o.s.c.s.DefaultLifecycleProcessor 366 - Stopping beans in phase 2147483647
+2018-06-05 21:21:15,242 [Thread-5] INFO  org.quartz.core.QuartzScheduler 585 - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2018-06-05 21:21:15,256 [Thread-5] INFO  o.s.s.quartz.SchedulerFactoryBean 810 - Shutting down Quartz Scheduler
+2018-06-05 21:21:15,257 [Thread-5] INFO  org.quartz.core.QuartzScheduler 666 - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2018-06-05 21:21:15,258 [Thread-5] INFO  org.quartz.core.QuartzScheduler 585 - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2018-06-05 21:21:15,262 [Thread-5] INFO  org.quartz.core.QuartzScheduler 740 - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2018-06-05 21:21:15,265 [Thread-5] INFO  com.zaxxer.hikari.pool.HikariPool 265 - HikariCP pool myHikariPool is shutting down.
+2018-06-05 21:21:15,275 [HikariCP connection filler (pool myHikariPool)] INFO  com.zaxxer.hikari.util.ConcurrentBag 177 - ConcurrentBag has been closed, ignoring add()
+2018-06-05 21:30:30,271 [main] INFO  hello.SpringLTWTest 50 - Starting SpringLTWTest on chenjingxuedeMacBook-Pro.local with PID 80422 (started by hackeridear in /Users/hackeridear/idea-268/gs-spring-boot/complete)
+2018-06-05 21:30:30,275 [main] INFO  hello.SpringLTWTest 656 - The following profiles are active: dev
+2018-06-05 21:30:30,383 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext 589 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@55b62629: startup date [Tue Jun 05 21:30:30 CST 2018]; root of context hierarchy
+2018-06-05 21:30:32,169 [main] INFO  o.s.b.f.s.DefaultListableBeanFactory 824 - Overriding bean definition for bean 'dataSource' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Generic.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]]
+2018-06-05 21:30:35,117 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 91 - Tomcat initialized with port(s): 0 (http)
+2018-06-05 21:30:35,157 [main] INFO  o.a.coyote.http11.Http11NioProtocol 180 - Initializing ProtocolHandler ["http-nio-auto-1"]
+2018-06-05 21:30:35,183 [main] INFO  o.a.catalina.core.StandardService 180 - Starting service [Tomcat]
+2018-06-05 21:30:35,184 [main] INFO  o.a.catalina.core.StandardEngine 180 - Starting Servlet Engine: Apache Tomcat/8.5.28
+2018-06-05 21:30:35,205 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener 180 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/hackeridear/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2018-06-05 21:30:35,433 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 180 - Initializing Spring embedded WebApplicationContext
+2018-06-05 21:30:35,434 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader 285 - Root WebApplicationContext: initialization completed in 5051 ms
+2018-06-05 21:30:36,216 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean 185 - Servlet dispatcherServlet mapped to [/]
+2018-06-05 21:30:36,220 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean 185 - Servlet statViewServlet mapped to [/druid/*]
+2018-06-05 21:30:36,227 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 243 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-06-05 21:30:36,228 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 243 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-06-05 21:30:36,228 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 243 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-06-05 21:30:36,229 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 243 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-06-05 21:30:36,231 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 256 - Mapping filter: 'webStatFilter' to urls: [/*]
+2018-06-05 21:30:36,231 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 243 - Mapping filter: 'corsFilter' to: [/*]
+2018-06-05 21:30:37,083 [main] INFO  com.zaxxer.hikari.HikariDataSource 103 - HikariCP pool myHikariPool is starting.
+2018-06-05 21:30:42,319 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter 567 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@55b62629: startup date [Tue Jun 05 21:30:30 CST 2018]; root of context hierarchy
+2018-06-05 21:30:42,551 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 548 - Mapped "{[/config]}" onto public java.lang.String com.springboot.demo.controller.CrossOriginController.getProperties()
+2018-06-05 21:30:42,554 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 548 - Mapped "{[/]}" onto public java.lang.String com.springboot.demo.controller.HelloController.index()
+2018-06-05 21:30:42,560 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 548 - Mapped "{[/myError],methods=[GET]}" onto public java.util.List com.springboot.demo.controller.MyErrorController.testError() throws java.lang.Exception
+2018-06-05 21:30:42,561 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 548 - Mapped "{[/logs],methods=[GET]}" onto public void com.springboot.demo.controller.MyLogController.log()
+2018-06-05 21:30:42,565 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 548 - Mapped "{[/user/list],methods=[GET]}" onto public java.util.List<com.springboot.demo.entity.User> com.springboot.demo.controller.UserController.getCollegeList()
+2018-06-05 21:30:42,565 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 548 - Mapped "{[/user],methods=[GET]}" onto public com.springboot.demo.entity.User com.springboot.demo.controller.UserController.getCollege()
+2018-06-05 21:30:42,566 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 548 - Mapped "{[/user/add],methods=[GET]}" onto public void com.springboot.demo.controller.UserController.addCollege()
+2018-06-05 21:30:42,570 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 548 - Mapped "{[/error]}" onto public com.springboot.demo.common.error.ErrorInfo com.springboot.demo.controller.base.GlobalErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-06-05 21:30:42,572 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 548 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView com.springboot.demo.controller.base.GlobalErrorController.errorHtml(javax.servlet.http.HttpServletRequest)
+2018-06-05 21:30:42,734 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 373 - Mapped URL path [/mystatic/*] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-05 21:30:42,735 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 373 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-05 21:30:42,735 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 373 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-05 21:30:42,853 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 373 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-05 21:30:43,660 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping 56 - Adding welcome page: class path resource [resources/index.html]
+2018-06-05 21:30:44,248 [main] INFO  o.s.w.s.v.f.FreeMarkerConfigurer 131 - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-06-05 21:30:44,863 [main] INFO  org.quartz.impl.StdSchedulerFactory 1208 - Using default implementation for ThreadExecutor
+2018-06-05 21:30:44,905 [main] INFO  o.quartz.core.SchedulerSignalerImpl 61 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2018-06-05 21:30:44,906 [main] INFO  org.quartz.core.QuartzScheduler 229 - Quartz Scheduler v.2.3.0 created.
+2018-06-05 21:30:44,907 [main] INFO  org.quartz.simpl.RAMJobStore 155 - RAMJobStore initialized.
+2018-06-05 21:30:44,909 [main] INFO  org.quartz.core.QuartzScheduler 294 - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-06-05 21:30:44,910 [main] INFO  org.quartz.impl.StdSchedulerFactory 1362 - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2018-06-05 21:30:44,910 [main] INFO  org.quartz.impl.StdSchedulerFactory 1366 - Quartz scheduler version: 2.3.0
+2018-06-05 21:30:44,911 [main] INFO  org.quartz.core.QuartzScheduler 2287 - JobFactory set to: org.springframework.boot.autoconfigure.quartz.AutowireCapableBeanJobFactory@194224ca
+2018-06-05 21:30:45,544 [main] INFO  o.s.c.s.DefaultLifecycleProcessor 351 - Starting beans in phase 2147483647
+2018-06-05 21:30:45,544 [main] INFO  o.s.s.quartz.SchedulerFactoryBean 686 - Starting Quartz Scheduler now
+2018-06-05 21:30:45,545 [main] INFO  org.quartz.core.QuartzScheduler 547 - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2018-06-05 21:30:45,562 [main] INFO  o.a.coyote.http11.Http11NioProtocol 180 - Starting ProtocolHandler ["http-nio-auto-1"]
+2018-06-05 21:30:45,613 [main] INFO  o.a.tomcat.util.net.NioSelectorPool 180 - Using a shared selector for servlet write/read
+2018-06-05 21:30:45,664 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 205 - Tomcat started on port(s): 64664 (http) with context path ''
+2018-06-05 21:30:45,671 [main] INFO  hello.SpringLTWTest 59 - Started SpringLTWTest in 17.917 seconds (JVM running for 21.871)
+2018-06-05 21:30:46,050 [Thread-5] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext 989 - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@55b62629: startup date [Tue Jun 05 21:30:30 CST 2018]; root of context hierarchy
+2018-06-05 21:30:46,057 [Thread-5] INFO  o.s.c.s.DefaultLifecycleProcessor 366 - Stopping beans in phase 2147483647
+2018-06-05 21:30:46,060 [Thread-5] INFO  org.quartz.core.QuartzScheduler 585 - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2018-06-05 21:30:46,062 [Thread-5] INFO  o.s.s.quartz.SchedulerFactoryBean 810 - Shutting down Quartz Scheduler
+2018-06-05 21:30:46,063 [Thread-5] INFO  org.quartz.core.QuartzScheduler 666 - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2018-06-05 21:30:46,063 [Thread-5] INFO  org.quartz.core.QuartzScheduler 585 - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2018-06-05 21:30:46,064 [Thread-5] INFO  org.quartz.core.QuartzScheduler 740 - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2018-06-05 21:30:46,067 [Thread-5] INFO  com.zaxxer.hikari.pool.HikariPool 265 - HikariCP pool myHikariPool is shutting down.
+2018-06-05 21:44:30,401 [main] INFO  hello.SpringLTWTest 50 - Starting SpringLTWTest on chenjingxuedeMacBook-Pro.local with PID 80774 (started by hackeridear in /Users/hackeridear/idea-268/gs-spring-boot/complete)
+2018-06-05 21:44:30,409 [main] INFO  hello.SpringLTWTest 656 - The following profiles are active: dev
+2018-06-05 21:44:30,483 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext 589 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@377c68c6: startup date [Tue Jun 05 21:44:30 CST 2018]; root of context hierarchy
+2018-06-05 21:44:32,388 [main] INFO  o.s.b.f.s.DefaultListableBeanFactory 824 - Overriding bean definition for bean 'dataSource' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Generic.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]]
+2018-06-05 21:44:35,423 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 91 - Tomcat initialized with port(s): 0 (http)
+2018-06-05 21:44:35,472 [main] INFO  o.a.coyote.http11.Http11NioProtocol 180 - Initializing ProtocolHandler ["http-nio-auto-1"]
+2018-06-05 21:44:35,501 [main] INFO  o.a.catalina.core.StandardService 180 - Starting service [Tomcat]
+2018-06-05 21:44:35,502 [main] INFO  o.a.catalina.core.StandardEngine 180 - Starting Servlet Engine: Apache Tomcat/8.5.28
+2018-06-05 21:44:35,529 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener 180 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/hackeridear/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2018-06-05 21:44:35,886 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 180 - Initializing Spring embedded WebApplicationContext
+2018-06-05 21:44:35,887 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader 285 - Root WebApplicationContext: initialization completed in 5404 ms
+2018-06-05 21:44:36,708 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean 185 - Servlet dispatcherServlet mapped to [/]
+2018-06-05 21:44:36,710 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean 185 - Servlet statViewServlet mapped to [/druid/*]
+2018-06-05 21:44:36,720 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 243 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-06-05 21:44:36,721 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 243 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-06-05 21:44:36,722 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 243 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-06-05 21:44:36,722 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 243 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-06-05 21:44:36,722 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 256 - Mapping filter: 'webStatFilter' to urls: [/*]
+2018-06-05 21:44:36,723 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 243 - Mapping filter: 'corsFilter' to: [/*]
+2018-06-05 21:44:37,745 [main] INFO  com.zaxxer.hikari.HikariDataSource 103 - HikariCP pool myHikariPool is starting.
+2018-06-05 21:44:42,392 [main] INFO  o.s.c.w.DefaultContextLoadTimeWeaver 85 - Found Spring's JVM agent for instrumentation
+2018-06-05 21:44:42,438 [main] INFO  o.s.c.w.DefaultContextLoadTimeWeaver 85 - Found Spring's JVM agent for instrumentation
+2018-06-05 21:44:44,066 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter 567 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@377c68c6: startup date [Tue Jun 05 21:44:30 CST 2018]; root of context hierarchy
+2018-06-05 21:44:44,367 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 548 - Mapped "{[/config]}" onto public java.lang.String com.springboot.demo.controller.CrossOriginController.getProperties()
+2018-06-05 21:44:44,370 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 548 - Mapped "{[/]}" onto public java.lang.String com.springboot.demo.controller.HelloController.index()
+2018-06-05 21:44:44,373 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 548 - Mapped "{[/myError],methods=[GET]}" onto public java.util.List com.springboot.demo.controller.MyErrorController.testError() throws java.lang.Exception
+2018-06-05 21:44:44,374 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 548 - Mapped "{[/logs],methods=[GET]}" onto public void com.springboot.demo.controller.MyLogController.log()
+2018-06-05 21:44:44,376 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 548 - Mapped "{[/user/list],methods=[GET]}" onto public java.util.List<com.springboot.demo.entity.User> com.springboot.demo.controller.UserController.getCollegeList()
+2018-06-05 21:44:44,377 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 548 - Mapped "{[/user],methods=[GET]}" onto public com.springboot.demo.entity.User com.springboot.demo.controller.UserController.getCollege()
+2018-06-05 21:44:44,378 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 548 - Mapped "{[/user/add],methods=[GET]}" onto public void com.springboot.demo.controller.UserController.addCollege()
+2018-06-05 21:44:44,381 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 548 - Mapped "{[/error]}" onto public com.springboot.demo.common.error.ErrorInfo com.springboot.demo.controller.base.GlobalErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-06-05 21:44:44,383 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 548 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView com.springboot.demo.controller.base.GlobalErrorController.errorHtml(javax.servlet.http.HttpServletRequest)
+2018-06-05 21:44:44,873 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 373 - Mapped URL path [/mystatic/*] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-05 21:44:44,874 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 373 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-05 21:44:44,874 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 373 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-05 21:44:45,242 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 373 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-05 21:44:45,952 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping 56 - Adding welcome page: class path resource [resources/index.html]
+2018-06-05 21:44:46,657 [main] INFO  o.s.w.s.v.f.FreeMarkerConfigurer 131 - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-06-05 21:44:47,726 [main] INFO  org.quartz.impl.StdSchedulerFactory 1208 - Using default implementation for ThreadExecutor
+2018-06-05 21:44:47,775 [main] INFO  o.quartz.core.SchedulerSignalerImpl 61 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2018-06-05 21:44:47,775 [main] INFO  org.quartz.core.QuartzScheduler 229 - Quartz Scheduler v.2.3.0 created.
+2018-06-05 21:44:47,777 [main] INFO  org.quartz.simpl.RAMJobStore 155 - RAMJobStore initialized.
+2018-06-05 21:44:47,779 [main] INFO  org.quartz.core.QuartzScheduler 294 - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-06-05 21:44:47,780 [main] INFO  org.quartz.impl.StdSchedulerFactory 1362 - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2018-06-05 21:44:47,781 [main] INFO  org.quartz.impl.StdSchedulerFactory 1366 - Quartz scheduler version: 2.3.0
+2018-06-05 21:44:47,782 [main] INFO  org.quartz.core.QuartzScheduler 2287 - JobFactory set to: org.springframework.boot.autoconfigure.quartz.AutowireCapableBeanJobFactory@70022d44
+2018-06-05 21:44:48,603 [main] INFO  o.s.c.s.DefaultLifecycleProcessor 351 - Starting beans in phase 2147483647
+2018-06-05 21:44:48,605 [main] INFO  o.s.s.quartz.SchedulerFactoryBean 686 - Starting Quartz Scheduler now
+2018-06-05 21:44:48,606 [main] INFO  org.quartz.core.QuartzScheduler 547 - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2018-06-05 21:44:48,621 [main] INFO  o.a.coyote.http11.Http11NioProtocol 180 - Starting ProtocolHandler ["http-nio-auto-1"]
+2018-06-05 21:44:48,654 [main] INFO  o.a.tomcat.util.net.NioSelectorPool 180 - Using a shared selector for servlet write/read
+2018-06-05 21:44:48,684 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 205 - Tomcat started on port(s): 65264 (http) with context path ''
+2018-06-05 21:44:48,707 [main] INFO  hello.SpringLTWTest 59 - Started SpringLTWTest in 20.731 seconds (JVM running for 24.889)
+2018-06-05 21:44:55,776 [Thread-5] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext 989 - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@377c68c6: startup date [Tue Jun 05 21:44:30 CST 2018]; root of context hierarchy
+2018-06-05 21:44:55,781 [Thread-5] INFO  o.s.c.s.DefaultLifecycleProcessor 366 - Stopping beans in phase 2147483647
+2018-06-05 21:44:55,784 [Thread-5] INFO  org.quartz.core.QuartzScheduler 585 - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2018-06-05 21:44:55,788 [Thread-5] INFO  o.s.s.quartz.SchedulerFactoryBean 810 - Shutting down Quartz Scheduler
+2018-06-05 21:44:55,788 [Thread-5] INFO  org.quartz.core.QuartzScheduler 666 - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2018-06-05 21:44:55,788 [Thread-5] INFO  org.quartz.core.QuartzScheduler 585 - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2018-06-05 21:44:55,789 [Thread-5] INFO  org.quartz.core.QuartzScheduler 740 - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2018-06-05 21:44:55,790 [Thread-5] INFO  o.s.c.w.DefaultContextLoadTimeWeaver 141 - Removing all registered transformers for class loader: sun.misc.Launcher$AppClassLoader
+2018-06-05 21:44:55,791 [Thread-5] INFO  com.zaxxer.hikari.pool.HikariPool 265 - HikariCP pool myHikariPool is shutting down.

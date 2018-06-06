@@ -1,0 +1,38 @@
+mybatis-plus:
+    mapper-locations: classpath:/mapper/*Mapper.xml
+    type-aliases-package: com.springboot.demo.entity
+server:
+    port: 8080
+    servlet:
+        path: /
+    tomcat:
+        uri-encoding: UTF-8
+spring:
+    datasource:
+        driver-class-name: com.mysql.jdbc.Driver
+        hikari:
+            connection-timeout: 30000
+            data-source-properties:
+                cachePrepStmts: true
+                cacheResultSetMetadata: true
+                cacheServerConfiguration: true
+                elideSetAutoCommits: true
+                maintainTimeStats: false
+                prepStmtCacheSize: 250
+                prepStmtCacheSqlLimit: 2048
+                rewriteBatchedStatements: true
+                useLocalSessionState: true
+                useLocalTransactionState: true
+                useServerPrepStmts: true
+
+            idle-timeout: 600000
+            max-lifetime: 1800000
+            maximum-pool-size: 10
+        password: chenjingxue
+        url: jdbc:mysql://127.0.0.1:3307/spiderDB?useUnicode=true&characterEncoding=utf8
+        username: root
+    devtools:
+        reatart:
+            enable: false
+    profiles:
+      active: dev
